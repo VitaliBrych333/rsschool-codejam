@@ -1,0 +1,13 @@
+{
+    "extends": "airbnb-base",
+    "rules": {
+      "linebreak-style": 0,
+      "indent": ["error", 4],
+      "no-alert": 0,
+      "prefer-destructuring": ["error", {"object": false, "array": false}],
+      "no-use-before-define":  ["error", { "functions": false }],
+      "no-param-reassign": 0,
+      "arrow-body-style": ["error", "always"],
+      "no-shadow": ["error", { "builtinGlobals": false, "hoist": "functions", "allow": [] }] 
+    }
+  }
