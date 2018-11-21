@@ -1,0 +1,28 @@
+{
+    "name": "rsschool-codejam",
+    "version": "1.0.0",
+    "description": "codejam-3",
+    "main": "",
+    "dependencies": {
+      "eslint": "^5.8.0",
+      "eslint-config-airbnb-base": "^13.1.0"
+    },
+    "devDependencies": {
+      "eslint-plugin-import": "^2.14.0",
+      "mocha": "^5.2.0"
+    },
+    "scripts": {
+      "test": "mocha test.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/VitaliBrych333/rsschool-codejam.git"
+    },
+    "author": "Vitali Brych",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/VitaliBrych333/rsschool-codejam/issues"
+    },
+    "homepage": "https://github.com/VitaliBrych333/rsschool-codejam#readme",
+    "lint": "eslint --ignore-path .gitignore ."
+  }
